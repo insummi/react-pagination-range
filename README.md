@@ -1,4 +1,5 @@
-Demo: https://insummi.github.io/
+Demo: https://insummi.github.io/<br />
+In this example pagination has seven items, but you will can change it
 
 `allListItems` - all items in pagination<br />
 `setItems` - number of items in pagination<br />
