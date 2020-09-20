@@ -1,3 +1,14 @@
+### Demo: https://insummi.github.io/
+
+`allListItems` - all items in pagination<br />
+`setItems` - number of items in pagination<br />
+`perPage` - limit on the number of lines displayed on the screen in the table<br />
+`currentPage` - current page<br />
+`totalItems` - data array length<br />
+`props.paginate` - method for setting the current page in the parent component
+
+**************************************************************************************************************
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
