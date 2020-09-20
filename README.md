@@ -1,4 +1,4 @@
-### Demo: https://insummi.github.io/
+Demo: https://insummi.github.io/
 
 `allListItems` - all items in pagination<br />
 `setItems` - number of items in pagination<br />
