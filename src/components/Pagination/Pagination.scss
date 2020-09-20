@@ -1,0 +1,89 @@
+.pagination {
+    &-table {
+        display: table;
+        width: 100%;
+
+        &-item {
+            display: table-row;
+            span {
+                display: table-cell;
+            }
+            span:first-child {
+                padding: 5px 20px;
+            }
+        }
+    }
+
+    &-container {
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: relative;
+        
+        &-wrapper {
+            padding: 50px;
+        }
+    }
+
+    &-item {
+        &__numbers {
+            display: block;
+            border: 1px solid #D9D9D9;
+            border-radius: 3px;
+            margin: 5px;
+            font-size: 14px;
+            padding: 0 2px 2px;
+            cursor: pointer;
+            text-align: center;
+            width: 23px;
+        }
+        &__arrow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 3px;
+            font-size: 14px;
+            padding: 0 0 5px;
+            cursor: pointer;
+            width: 20px;
+            margin: 4px;
+        }
+        &__counter {
+            position: absolute;
+            right: 0;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 1;
+            color: #72767B;
+            
+            &-title {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 1;
+            }
+        }
+    }
+}
+
+.perpage {
+    &-container{
+        &-showPerPage{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding: 10px 20px;
+
+            &__title {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 1;
+                padding-right: 10px;
+            }
+        }
+    } 
+}
