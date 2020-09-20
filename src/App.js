@@ -87,7 +87,7 @@ function App() {
     if(perPage){
       setPagesData({
         ...pagesData,
-        perPage: +e.target.value,
+        perPage,
         currentPage: 1,
       })
     }
